@@ -41,6 +41,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reminder";
             this.Text = "Напоминалка";
+            this.Load += new System.EventHandler(this.Reminder_Load);
             this.ResumeLayout(false);
 
         }

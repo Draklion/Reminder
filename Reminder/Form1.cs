@@ -6,5 +6,10 @@ namespace Reminder
         {
             InitializeComponent();
         }
+
+        private void Reminder_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
